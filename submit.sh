@@ -9,7 +9,7 @@ if [ $# -eq 0 ]
     exit
 fi
 
-cur_date=$(date +'%m-%d-%Y')
+cur_date=$(date +'%Y-%m-%d')
 
 if ! [[ $2 == "-n" || -e projects/$1 ]]
   then
@@ -20,11 +20,12 @@ fi
 mkdir -p projects/$1
     
 
-gen_file="projects/$1/$cur_date.html"
+gen_file="projects/$1/$cur_date.md"
 
 if ! [[ -e $gen_file ]]
   then
-    cp template.html $gen_file
+    touch $gen_file
+    printf "##$cur_date\n------------------\n" > $gen_file
 fi
 
 vim $gen_file

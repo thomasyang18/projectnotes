@@ -1,5 +1,8 @@
-# Purpose
+# Notes
 ------------------------
+
+[Link to compiled notes](LINKS.md)
+
 This should NOT be a series of notes where I post about a new technique I learned or a video I watched; it was starting to turn into that. Keep that to google keep or something. It's vapid consumption for the sake of feeling productive.
 
 This is a collection of small programs + notes per day on the progress of them (larger programs will obviously be in their own github repos, but smaller programs can rest in here too).
