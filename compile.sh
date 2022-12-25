@@ -35,13 +35,15 @@ _compileproject() {
 
 if [[ $1 == "." ]]
   then
+    cp READMEtemplate.md README.md
     cp /dev/null LINKS.md
     printf "# Links\n-----------------\n" > LINKS.md
     for PROJ in projects/*
     do
       _compileproject $PROJ
-      echo "- [${PROJ/#projects/}]($PROJ/all.md)" >> LINKS.md
+      echo "- [${PROJ/#projects}]($PROJ/all.md)" >> LINKS.md
     done
+    cat LINKS.md >> README.md
     
   else
     _compileproject projects/$1
