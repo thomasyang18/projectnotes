@@ -9,6 +9,12 @@ if [ $# -eq 0 ]
     exit
 fi
 
+if [[ $1 == "." || $1 == ".." ]]
+  then
+    echo "Don't pass these lol"
+    exit
+fi
+
 cur_date=$(date +'%Y-%m-%d')
 
 if ! [[ $2 == "-n" || -e projects/$1 ]]
@@ -25,7 +31,7 @@ gen_file="projects/$1/$cur_date.md"
 if ! [[ -e $gen_file ]]
   then
     touch $gen_file
-    printf "##$cur_date\n------------------\n" > $gen_file
+    printf "## $cur_date\n------------------\n" > $gen_file
 fi
 
 vim $gen_file

@@ -36,11 +36,11 @@ _compileproject() {
 if [[ $1 == "." ]]
   then
     cp /dev/null LINKS.md
-    printf "#Links\n-----------------\n" > LINKS.md
+    printf "# Links\n-----------------\n" > LINKS.md
     for PROJ in projects/*
     do
       _compileproject $PROJ
-      echo "- $PROJ/all.md" >> LINKS.md
+      echo "- [${PROJ/#projects/}]($PROJ/all.md)" >> LINKS.md
     done
     
   else

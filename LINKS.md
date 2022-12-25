@@ -1,17 +1,17 @@
-#Links
+# Links
 -----------------
-- projects/category-theory/all.md
-- projects/combopt/all.md
-- projects/concrete_mathematics/all.md
-- projects/cp/all.md
-- projects/cpython/all.md
-- projects/deep-learning/all.md
-- projects/game_engine/all.md
-- projects/hpc/all.md
-- projects/linalg/all.md
-- projects/meta/all.md
-- projects/probability/all.md
-- projects/quantum/all.md
-- projects/queueing/all.md
-- projects/sat/all.md
-- projects/web3/all.md
+- [/category-theory](projects/category-theory/all.md)
+- [/combopt](projects/combopt/all.md)
+- [/concrete-mathematics](projects/concrete-mathematics/all.md)
+- [/cp](projects/cp/all.md)
+- [/cpython](projects/cpython/all.md)
+- [/deep-learning](projects/deep-learning/all.md)
+- [/game-engine](projects/game-engine/all.md)
+- [/hpc](projects/hpc/all.md)
+- [/linalg](projects/linalg/all.md)
+- [/meta](projects/meta/all.md)
+- [/probability](projects/probability/all.md)
+- [/quantum](projects/quantum/all.md)
+- [/queueing](projects/queueing/all.md)
+- [/sat](projects/sat/all.md)
+- [/web3](projects/web3/all.md)
