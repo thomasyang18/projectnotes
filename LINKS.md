@@ -10,6 +10,7 @@
 - [/hpc](projects/hpc/all.md)
 - [/linalg](projects/linalg/all.md)
 - [/meta](projects/meta/all.md)
+- [/networking](projects/networking/all.md)
 - [/probability](projects/probability/all.md)
 - [/quantum](projects/quantum/all.md)
 - [/queueing](projects/queueing/all.md)
